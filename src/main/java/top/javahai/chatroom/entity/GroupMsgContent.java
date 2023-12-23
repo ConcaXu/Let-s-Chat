@@ -8,8 +8,6 @@ import java.io.Serializable;
 /**
  * (GroupMsgContent)实体类
  *
- * @author makejava
- * @since 2020-06-17 10:46:50
  */
 public class GroupMsgContent implements Serializable {
     private static final long serialVersionUID = 980328865610261046L;

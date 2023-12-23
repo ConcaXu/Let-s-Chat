@@ -15,10 +15,6 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Random;
 
-/**
- * @author Hai
- * @date 2020/6/16 - 17:33
- */
 @RestController
 public class LoginController {
   /**

@@ -7,10 +7,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author Hai
- * @date 2020/6/23 - 16:28
- */
 @Component
 public class DateConverter implements Converter<String, Date> {
 

@@ -12,10 +12,6 @@ import top.javahai.chatroom.utils.AliyunOssUtil;
 
 import java.io.IOException;
 
-/**
- * @author Hai
- * @date 2020/6/21 - 16:47
- */
 @RestController
 public class FileController {
 

@@ -9,8 +9,6 @@ import javax.annotation.Resource;
 /**
  * (UserState)表控制层
  *
- * @author makejava
- * @since 2020-06-16 11:36:02
  */
 @RestController
 @RequestMapping("userState")

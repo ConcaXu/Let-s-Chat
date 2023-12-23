@@ -4,8 +4,6 @@ import java.util.Date;
 
 /**
  * 单聊的消息实体
- * @author Hai
- * @date 2020/6/25 - 19:32
  */
 public class Message {
   private String from;

@@ -14,17 +14,19 @@ import java.util.Random;
 
 @SpringBootTest
 class ChatroomApplicationTests {
+    @Autowired
+    JavaMailSender javaMailSender;
 
-  //测试密码加密
-  @Test
-  void contextLoads() {
-    BCryptPasswordEncoder encoder=new BCryptPasswordEncoder();
-    String encode = encoder.encode("123");
-    System.out.println(encode);
-  }
+    //测试密码加密
+    @Test
+    void contextLoads() {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        String encode = encoder.encode("123");
+        System.out.println(encode);
+    }
 
-  @Test
-  void test01(){
+    @Test
+    void test01() {
     SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     System.out.println(simpleDateFormat.format(new Date()));
     System.out.println(new Date());
@@ -37,9 +39,8 @@ void test02(){
     String html = emojiConverter.toHtml(str);
     System.out.println(html);
 }
-  @Autowired
-  JavaMailSender javaMailSender;
-  //测试邮件发送
+
+    //测试邮件发送
 @Test
    void test03(){
     SimpleMailMessage msg=new SimpleMailMessage();

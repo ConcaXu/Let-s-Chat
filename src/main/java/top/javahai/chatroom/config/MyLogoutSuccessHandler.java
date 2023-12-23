@@ -12,10 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * @author Hai
- * @date 2020/6/19 - 13:18
- */
 @Configuration
 public class MyLogoutSuccessHandler implements LogoutSuccessHandler {
 

@@ -10,8 +10,6 @@ import java.util.List;
 /**
  * (GroupMsgContent)表数据库访问层
  *
- * @author makejava
- * @since 2020-06-17 10:51:13
  */
 public interface GroupMsgContentDao {
 

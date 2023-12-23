@@ -12,10 +12,7 @@ import java.io.InputStream;
 import java.util.UUID;
 
 /**
- * @author Hai
- * @program: subtlechat-mini
  * @description: oss文件存储工具类
- * @create 2021/12/5 - 19:28
  **/
 @Component
 public class AliyunOssUtil {

@@ -9,8 +9,6 @@ import java.util.Collection;
 /**
  * (Admin)实体类
  *
- * @author makejava
- * @since 2020-06-16 11:35:56
  */
 public class Admin implements Serializable, UserDetails {
     private static final long serialVersionUID = -75235725571250857L;

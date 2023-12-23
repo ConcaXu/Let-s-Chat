@@ -16,10 +16,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @author Hai
- * @date 2020/6/16 - 23:34
- */
 @Controller
 public class WsController {
   @Autowired

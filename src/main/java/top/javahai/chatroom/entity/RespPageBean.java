@@ -2,10 +2,6 @@ package top.javahai.chatroom.entity;
 
 import java.util.List;
 
-/**
- * @author luo
- * @date 2020/6/22 - 19:18
- */
 public class RespPageBean {
   private Long total;//数据总数
   private List<?> data;//数据实体列表

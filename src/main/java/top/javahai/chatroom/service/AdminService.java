@@ -5,9 +5,6 @@ import java.util.List;
 
 /**
  * (Admin)表服务接口
- *
- * @author makejava
- * @since 2020-06-16 11:35:58
  */
 public interface AdminService {
 

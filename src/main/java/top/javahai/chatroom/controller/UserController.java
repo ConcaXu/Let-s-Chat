@@ -13,8 +13,6 @@ import java.util.List;
 /**
  * (User)表控制层
  *
- * @author makejava
- * @since 2020-06-16 11:37:09
  */
 @RestController
 @RequestMapping("/user")

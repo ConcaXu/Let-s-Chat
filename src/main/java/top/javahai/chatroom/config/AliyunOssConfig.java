@@ -3,12 +3,6 @@ package top.javahai.chatroom.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * @author Hai
- * @program: subtlechat-mini
- * @description:
- * @create 2021/12/5 - 19:25
- **/
 @Component
 @ConfigurationProperties(prefix="aliyun.oss")
 public class AliyunOssConfig {

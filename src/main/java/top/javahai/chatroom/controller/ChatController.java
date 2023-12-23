@@ -9,10 +9,6 @@ import top.javahai.chatroom.service.UserService;
 
 import java.util.List;
 
-/**
- * @author Hai
- * @date 2020/6/16 - 21:32
- */
 @RestController
 @RequestMapping("/chat")
 public class ChatController {
