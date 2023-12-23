@@ -1,6 +1,6 @@
 package top.javahai.chatroom.exception;
 
-import com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException;
+import com.mysql.cj.jdbc.exceptions.MySQLQueryInterruptedException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import top.javahai.chatroom.entity.RespBean;
@@ -16,11 +16,11 @@ import java.sql.SQLException;
 public class GlobalExceptionHandler {
 
   /*
-  处理SQLException异常
+  处理SQLException异常 MySQLIntegrityConstraintViolationException
    */
   @ExceptionHandler(SQLException.class)
   public RespBean sqlExceptionHandler(SQLException e){
-    if (e instanceof MySQLIntegrityConstraintViolationException){
+    if (e instanceof MySQLQueryInterruptedException){
       return RespBean.error("该数据与其他数据存在关联，无法删除！");
     }
     else {
