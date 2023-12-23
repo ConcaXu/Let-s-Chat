@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>top.javahai</groupId>
-    <artifactId>subtlechat-mini</artifactId>
+    <artifactId>Lets-Chat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>subtlechat-mini</name>
+    <name>Let`s-Chat</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
